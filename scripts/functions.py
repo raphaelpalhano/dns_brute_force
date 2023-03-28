@@ -22,7 +22,7 @@ def discovery_dns_ip():
 
                 
         except Exception as e:
-            pass
+            print(f"processing error: {e}")
     print("\n \n PROCESSING FINISHED!")
 
 
